@@ -70,6 +70,16 @@ yarn preview
 pnpm preview
 ```
 
+### Dependency Audit
+
+Run the dependency audit locally with:
+
+```bash
+yarn audit:dependencies
+```
+
+GitHub Actions also runs the same audit automatically for pushes, pull requests, scheduled checks, and manual workflow dispatches.
+
 ## Project Structure
 
 ```

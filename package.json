@@ -7,22 +7,26 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "audit:dependencies": "yarn audit --level moderate"
   },
   "dependencies": {
-    "vue": "^3.5.32",
+    "vue": "^3.5.35",
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
-    "@types/node": "^25.5.2",
-    "@vitejs/plugin-vue": "^6.0.5",
-    "autoprefixer": "^10.4.27",
+    "@types/node": "^25.9.1",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "autoprefixer": "^10.5.0",
     "eslint-config-prettier": "^10.1.8",
-    "postcss": "^8.5.10",
-    "prettier": "3.8.1",
+    "postcss": "8.5.15",
+    "prettier": "3.8.3",
     "tailwindcss": "^3.4.19",
     "typescript": "^5.9.3",
-    "vite": "^6.4.2",
-    "vue-tsc": "^3.2.6"
+    "vite": "^6.4.3",
+    "vue-tsc": "^3.3.3"
+  },
+  "resolutions": {
+    "postcss": "8.5.15"
   }
 }
