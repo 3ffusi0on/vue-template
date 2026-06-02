@@ -27,6 +27,6 @@
     "vue-tsc": "^3.3.3"
   },
   "resolutions": {
-    "postcss": "^8.5.15"
+    "postcss": "8.5.15"
   }
 }
